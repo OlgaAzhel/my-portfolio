@@ -1,24 +1,20 @@
 ---
 import Icon from './Icon.astro';
+import Pill from './Pill.astro'
 ---
 
-<section class="box skills">
-	<div class="stack gap-2 lg:gap-4">
-		<Icon icon="terminal-window" color="var(--accent-regular)" size="2.5rem" gradient />
-		<h2>Full Stack</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
-	</div>
-	<div class="stack gap-2 lg:gap-4">
-		<Icon icon="trophy" color="var(--accent-regular)" size="2.5rem" gradient />
-		<h2>Industry Leader</h2>
-		<p>Neque viverra justo nec ultrices dui. Est ultricies integer quis auctor elit.</p>
-	</div>
-	<div class="stack gap-2 lg:gap-4">
-		<Icon icon="strategy" color="var(--accent-regular)" size="2.5rem" gradient />
-		<h2>Strategy-Minded</h2>
-		<p>Urna porttitor rhoncus dolor purus non enim praesent ornare.</p>
-	</div>
-</section>
+<span style="display: flex; flexDirection: row; width:600px;height:200px">
+	<span ><Pill><Icon icon="code" size="1.33em" /> JavaScript</Pill></span>
+	<span><Pill><Icon icon="strategy" size="1.33em" /> HTML</Pill></span>
+	<span><Pill><Icon icon="pencil-line" size="1.33em" /> CSS</Pill></span>
+	<span><Pill><Icon icon="pencil-line" size="1.33em" /> React</Pill></span>
+	<span><Pill><Icon icon="pencil-line" size="1.33em" /> Python</Pill></span>
+	<span><Pill><Icon icon="pencil-line" size="1.33em" /> Django</Pill></span>
+	<span><Pill><Icon icon="pencil-line" size="1.33em" /> PostgreSQL</Pill></span>
+	<span><Pill><Icon icon="pencil-line" size="1.33em" /> Mongo DB /Mongoose</Pill></span>
+	<span><Pill><Icon icon="pencil-line" size="1.33em" /> Git / GitHub</Pill></span>
+
+</span>
 
 <style>
 	.box {

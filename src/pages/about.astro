@@ -1,58 +1,88 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.astro';
+import BaseLayout from "../layouts/BaseLayout.astro";
 
-import ContactCTA from '../components/ContactCTA.astro';
-import Hero from '../components/Hero.astro';
+import ContactCTA from "../components/ContactCTA.astro";
+import Hero from "../components/Hero.astro";
 ---
 
-<BaseLayout title="About | Jeanine White" description="About Jeanine White Lorem Ipsum">
+<BaseLayout
+	title="About | Jeanine White"
+	description="About Jeanine White Lorem Ipsum"
+>
 	<div class="stack gap-20">
 		<main class="wrapper about">
 			<Hero
 				title="About"
 				tagline="Thanks for stopping by. Read below to learn more about myself and my background."
 			>
-				<img
-					width="1553"
-					height="873"
-					src="/assets/at-work.jpg"
-					alt="Jeanine White at work with a colleague"
-				/>
+
 			</Hero>
 
 			<section>
 				<h2 class="section-title">Background</h2>
 				<div class="content">
 					<p>
-						Lorem ipsum dolor sit amet, <a href="https://astro.build/">Astro</a> makes people happy.
-						Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Proin nibh nisl condimentum
-						id venenatis a condimentum vitae. Dapibus ultrices in iaculis nunc. Arcu odio ut sem nulla
-						pharetra diam sit amet. Diam quis enim lobortis scelerisque fermentum dui faucibus in ornare.
+						I’m a software developer with experience in supply chain
+						management and customs compliance. Have a strong
+						foundation in efficient problem-solving, meeting tight
+						deadlines, self-motivation, and teamwork. Committed to
+						constant learning and growing. Always choose to utilize
+						technology to solve problems efficiently. Passionate
+						about creating elegant digital tools which help improve
+						people’s lives.
 					</p>
-					<p>
-						Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Eget gravida cum sociis
-						natoque penatibus. Cras fermentum odio eu feugiat pretium nibh. Proin nibh nisl
-						condimentum id venenatis. Porta nibh venenatis cras sed felis eget velit. Id diam vel
-						quam elementum pulvinar etiam non.
-					</p>
-					<p>
-						Ultrices tincidunt arcu non sodales neque sodales ut. Sed enim ut sem viverra aliquet
-						eget sit amet. Lacus luctus accumsan tortor posuere ac ut consequat semper viverra.
-						Viverra accumsan in nisl nisi scelerisque eu ultrices. In massa tempor nec feugiat nisl
-						pretium fusce.
-					</p>
-				</div>
-			</section>
-			<section>
-				<h2 class="section-title">Education</h2>
-				<div class="content">
-					<p>Corporis voluptates tenetur laudantium.</p>
 				</div>
 			</section>
 			<section>
 				<h2 class="section-title">Skills</h2>
 				<div class="content">
-					<p>officia unde omnis</p>
+					<h5>Languages</h5> - JavaScript, TypeScript, Python, HTML, CSS
+					<br />
+					<h5>Libraries and Frameworks</h5> - Node.js, Express.js, jQuery,
+					React, Redux, Django
+					<br />
+					<h5>Database</h5> - PostgreSQL, Sequelize, MongoDB, Mongoose,
+					ORM/ODM
+					<br />
+					<h5>Source control</h5> - Git, Github
+					<br />
+					<h5>Other concepts</h5> - RESTful APIs, OOP, MVC, TDD
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Education</h2>
+				<div class="content">
+					<p>
+						<h5>GENERAL ASSEMBLY</h5>
+						<h6>April 2023</h6>
+						Software Engineering Immersive program Full-stack software
+						engineering student in an intensive, twelve-week, 450+ hour
+						program focused on product development fundamentals, object-oriented
+						programming, MVC frameworks, data modeling, and team collaboration
+						strategies. Developed a portfolio of individual and group
+						projects.
+						<br />
+						<br />
+						<h5>NCBFAA Educational Institute | Washington, DC</h5>
+						<h6>March 2018</h6>
+						Certified Customs Specialist, Customs compliance
+						<br />
+						<br />
+						<h5>
+							STATE INSTITUTE FOR ADVANCED TRAINING AND RETRAINING
+							OF CUSTOMS AUTHORITIES OF BELARUS | Minsk, Belarus
+						</h5>
+						<h6>September 2012</h6>
+						Licensed Customs Broker, Customs compliance
+						<br />
+						<br />
+						<h5>
+							BELARUSSIAN STATE ECONOMIC UNIVERSITY | Minsk,
+							Belarus
+						</h5>
+						<h6>2007 -2012</h6>
+						Bachelor of Science in Finance
+					</p>
 				</div>
 			</section>
 		</main>
