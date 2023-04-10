@@ -1,7 +1,7 @@
 ---
 title: Fly-By-Express
 publishDate: 2020-03-02 00:00:00
-img: /assets/stock-1.jpg
+img: /my-portfolio/assets/stock-1.jpg
 img_alt: Iridescent ripples of a bright blue and pink liquid
 description: |
   Designed a tool that helps immigrant communities in the United States to search for people who are flying to their home countries and are willing to help deliver parcels, gifts, or documents. 
