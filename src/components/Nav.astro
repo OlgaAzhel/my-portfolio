@@ -4,9 +4,9 @@ import ThemeToggle from './ThemeToggle.astro';
 
 /** Main menu items */
 const textLinks: { label: string; href: string }[] = [
-	{ label: 'Home', href: '/' },
-	{ label: 'Work', href: '/work/' },
-	{ label: 'About', href: '/about/' },
+	{ label: 'Home', href: 'my-portfolio/' },
+	{ label: 'Work', href: 'my-portfolio/work/' },
+	{ label: 'About', href: 'my-portfolio/about/' },
 ];
 
 /** Icon links to social media — edit these with links to your profiles! */
@@ -22,7 +22,7 @@ const iconLinks: { label: string; href: string; icon: IconProps['icon'] }[] = [
 
 <nav>
 	<div class="menu-header">
-		<a href="/" class="site-title">
+		<a href="my-portfolio/" class="site-title">
 			<Icon icon="terminal-window" color="var(--accent-regular)" size="1.6em" gradient />
 			Olga Azhel
 		</a>
@@ -30,7 +30,7 @@ const iconLinks: { label: string; href: string; icon: IconProps['icon'] }[] = [
 			<template>
 				<button class="menu-button" aria-expanded="false">
 					<span class="sr-only">Menu</span>
-					<Icon icon="list" />
+					<!-- <Icon icon="list" /> -->
 				</button>
 			</template>
 		</menu-button>
