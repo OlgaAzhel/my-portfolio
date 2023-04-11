@@ -1,22 +1,51 @@
 ---
-import Icon from './Icon.astro';
-import Pill from './Pill.astro'
+import Icon from "./Icon.astro";
+import Pill from "./Pill.astro";
 ---
 
-<span style="display: flex; flexDirection: row; width:600px;">
-	<span><Pill>JavaScript</Pill></span>
-	<span><Pill>HTML</Pill></span>
-	<span><Pill>CSS</Pill></span>
-	<span><Pill>React</Pill></span>
-	<span><Pill>Python</Pill></span>
-	<span><Pill>Django</Pill></span>
-	<span><Pill>PostgreSQL</Pill></span>
-	<span><Pill>Mongo DB /Mongoose</Pill></span>
-	<span><Pill>Git / GitHub</Pill></span>
-
+<span class="my-skills">
+	<div class="skill-list">
+		<h5>Languges</h5>
+		<span><Pill>JavaScript</Pill></span>
+		<span><Pill>TypeScript</Pill></span>
+		<span><Pill>Python</Pill></span>
+		<span><Pill>HTML</Pill></span>
+		<span><Pill>CSS</Pill></span>
+	</div>
+	<div class="skill-list">
+		<h5>Libraries and Frameworks</h5>
+		<span><Pill>Node.js</Pill></span>
+		<span><Pill>Express</Pill></span>
+		<span><Pill>React</Pill></span>
+		<span><Pill>JQuery</Pill></span>
+		<span><Pill>Django</Pill></span>
+	</div>
+	<div class="skill-list">
+		<h5>Database</h5>
+		<span><Pill>PostgreSQL</Pill></span>
+		<span><Pill>Mongo DB /Mongoose</Pill></span>
+		<span><Pill>ORM/ODM</Pill></span>
+	</div>
+	<div class="skill-list">
+		<h5>Source control</h5>
+		<span><Pill>Git</Pill></span>
+		<span><Pill>GitHub</Pill></span>
+	</div>
+	<div class="skill-list">
+		<h5>Other concepts</h5>
+		<span><Pill>RESTful APIs</Pill></span>
+		<span><Pill>OOP</Pill></span>
+		<span><Pill>MVC</Pill></span>
+		<span><Pill>TDD</Pill></span>
+	</div>
 </span>
 
 <style>
+	.skill-list {
+		display: flex;
+		flex-direction: column;
+	}
+
 	.box {
 		border: 1px solid var(--gray-800);
 		border-radius: 0.75rem;
@@ -25,10 +54,17 @@ import Pill from './Pill.astro'
 		box-shadow: var(--shadow-sm);
 	}
 
-	.skills {
-		display: flex;
-		flex-direction: column;
-		gap: 3rem;
+	h5 {
+		height: 60px;
+	}
+
+	.my-skills {
+		margin: auto;
+		display: grid;
+		grid-template-columns: repeat(5, 1fr);
+		gap: 10px;
+
+		max-width: 100%;
 	}
 
 	.skills h2 {
