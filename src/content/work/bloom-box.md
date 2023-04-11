@@ -1,7 +1,7 @@
 ---
 title: Checkers
 publishDate: 2019-12-01 00:00:00
-img: /my-portfolio/assets/stock-2.jpg
+img: /assets/stock-2.jpg
 img_alt: A bright pink sheet of paper used to wrap flowers curves in front of rich blue background
 description: |
   Implemented functionality of the original game using plain JavaScript and DOM manipulation

@@ -1,7 +1,7 @@
 ---
 title: My Neighborhood
 publishDate: 2023-03-24 00:00:00
-img: /my-portfolio/assets/stock-3.jpg
+img: /assets/stock-3.jpg
 img_alt: Pearls of silky soft white cotton, bubble up under vibrant lighting
 description: |
   Appllication for making communities better by helping residents to quickly and efficiently report non-emergency issues to the proper government agency and inform fellow community members.
